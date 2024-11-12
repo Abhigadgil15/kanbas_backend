@@ -1,0 +1,122 @@
+export default [
+  {
+    "_id": "CS1234",
+    "name": "React JS",
+    "number": "CS1234",
+    "startDate": "2023-01-15",
+    "endDate": "2023-05-20",
+    "department": "Computer Science",
+    "credits": 3,
+    "description": "Dive into the world of React JS, where you will learn how to build interactive user interfaces. This course covers component-based architecture, state management, and the lifecycle of components, enabling you to create dynamic web applications.",
+    "LinkTo": "/Kanbas/Courses/CS1234/Home",
+    "imagePath":"images/full-stack.png"
+  },
+  {
+    "_id": "CS5010",
+    "name": "PDP",
+    "number": "CS5010",
+    "startDate": "2023-02-01",
+    "endDate": "2023-06-15",
+    "department": "Computer Science",
+    "credits": 4,
+    "description": "Explore different programming paradigms, including functional, object-oriented, and imperative programming. This course provides a comprehensive understanding of how various paradigms shape software development and enhances problem-solving skills.",
+    "LinkTo": "/Kanbas/Courses/CS5010/Home",
+    "imagePath":"images/pdp.jpg"
+  },
+  {
+    "_id": "CS5600",
+    "name": "Web Development",
+    "number": "CS5600",
+    "startDate": "2023-03-01",
+    "endDate": "2023-07-01",
+    "department": "Computer Science",
+    "credits": 3,
+    "description": "Learn the fundamentals of web development, from HTML and CSS to JavaScript and backend technologies. This hands-on course empowers you to build responsive and modern websites, preparing you for a career in web development.",
+    "LinkTo": "/Kanbas/Courses/CS5600/Home",
+    "imagePath":"images/webdev.jpg"
+  },
+  {
+    "_id": "CS6100",
+    "name": "Cloud Computing",
+    "number": "CS6100",
+    "startDate": "2023-03-15",
+    "endDate": "2023-07-15",
+    "department": "Computer Science",
+    "credits": 4,
+    "description": "Understand the principles of cloud computing, including architecture, services, and deployment models. This course explores cloud platforms and their impact on businesses, equipping students with the skills to design cloud-based solutions.",
+    "LinkTo": "/Kanbas/Courses/CS6100/Home",
+    "imagePath":"images/CC.png"
+  },
+  {
+    "_id": "CS6700",
+    "name": "Computer Engineering",
+    "number": "CS6700",
+    "startDate": "2023-04-01",
+    "endDate": "2023-08-01",
+    "department": "Computer Engineering",
+    "credits": 4,
+    "description": "This course covers the principles of computer engineering, focusing on hardware and software integration. Students will gain practical experience in system design, circuit analysis, and programming, preparing them for careers in engineering.",
+    "LinkTo": "/Kanbas/Courses/CS6700/Home",
+    "imagePath":"images/CE.webp"
+  },
+  {
+    "_id": "CS6821",
+    "name": "NLP",
+    "number": "CS6821",
+    "startDate": "2023-04-10",
+    "endDate": "2023-08-10",
+    "department": "Computer Science",
+    "credits": 4,
+    "description": "Delve into Natural Language Processing, exploring techniques for text analysis, sentiment analysis, and machine translation. This course provides a foundation in algorithms and models used in processing human languages.",
+    "LinkTo": "/Kanbas/Courses/CS6821/Home",
+     "imagePath":"images/nlp.webp"
+  },
+  {
+    "_id": "CS5800",
+    "name": "Algorithms",
+    "number": "CS5800",
+    "startDate": "2023-05-01",
+    "endDate": "2023-09-01",
+    "department": "Computer Science",
+    "credits": 3,
+    "description": "Learn about the design and analysis of algorithms, focusing on complexity, data structures, and algorithmic strategies. This course emphasizes problem-solving and computational thinking through practical applications.",
+    "LinkTo": "/Kanbas/Courses/CS5800/Home",
+    "imagePath":"images/algorithms.jpg"
+  },
+  {
+    "_id": "CS6897",
+    "name": "Computer Vision",
+    "number": "CS6897",
+    "startDate": "2023-05-15",
+    "endDate": "2023-09-15",
+    "department": "Computer Science",
+    "credits": 4,
+    "description": "This course introduces students to the field of computer vision, covering image processing techniques, feature detection, and machine learning applications. Students will work on projects that apply these concepts to real-world scenarios.",
+    "LinkTo": "/Kanbas/Courses/CS6897/Home",
+    "imagePath":"images/cv.avif"
+  },
+  {
+    "_id": "CS7654",
+    "name": "Software Engineering",
+    "number": "CS7654",
+    "startDate": "2023-06-01",
+    "endDate": "2023-10-01",
+    "department": "Computer Science",
+    "credits": 4,
+    "description": "Gain insights into software engineering principles and methodologies. This course covers the software development life cycle, project management, and best practices for building robust and scalable software applications.",
+    "LinkTo": "/Kanbas/Courses/CS7654/Home",
+    "imagePath":"images/SE.webp"
+  },
+  {
+    "_id": "CS6340",
+    "name": "Internet of Things",
+    "number": "CS6340",
+    "startDate": "2023-06-15",
+    "endDate": "2023-10-15",
+    "department": "Computer Science",
+    "credits": 4,
+    "description": "Explore the Internet of Things (IoT) and its applications in various industries. This course covers IoT architecture, protocols, and security considerations, providing students with the knowledge to develop IoT solutions.",
+    "LinkTo": "/Kanbas/Courses/CS6340/Home",
+    "imagePath":"images/IoT.jpg"
+  }
+]
