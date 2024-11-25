@@ -1,5 +1,6 @@
-[
+export default [
   {
+    "_id": "CS1234",
     "name": "React JS",
     "number": "CS1234",
     "startDate": "2023-01-15",
@@ -11,6 +12,7 @@
     "imagePath":"images/full-stack.png"
   },
   {
+    "_id": "CS5010",
     "name": "PDP",
     "number": "CS5010",
     "startDate": "2023-02-01",
@@ -22,6 +24,7 @@
     "imagePath":"images/pdp.jpg"
   },
   {
+    "_id": "CS5600",
     "name": "Web Development",
     "number": "CS5600",
     "startDate": "2023-03-01",
@@ -33,6 +36,7 @@
     "imagePath":"images/webdev.jpg"
   },
   {
+    "_id": "CS6100",
     "name": "Cloud Computing",
     "number": "CS6100",
     "startDate": "2023-03-15",
@@ -44,6 +48,7 @@
     "imagePath":"images/CC.png"
   },
   {
+    "_id": "CS6700",
     "name": "Computer Engineering",
     "number": "CS6700",
     "startDate": "2023-04-01",
@@ -55,6 +60,7 @@
     "imagePath":"images/CE.webp"
   },
   {
+    "_id": "CS6821",
     "name": "NLP",
     "number": "CS6821",
     "startDate": "2023-04-10",
@@ -66,6 +72,7 @@
      "imagePath":"images/nlp.webp"
   },
   {
+    "_id": "CS5800",
     "name": "Algorithms",
     "number": "CS5800",
     "startDate": "2023-05-01",
@@ -77,6 +84,7 @@
     "imagePath":"images/algorithms.jpg"
   },
   {
+    "_id": "CS6897",
     "name": "Computer Vision",
     "number": "CS6897",
     "startDate": "2023-05-15",
@@ -88,6 +96,7 @@
     "imagePath":"images/cv.avif"
   },
   {
+    "_id": "CS7654",
     "name": "Software Engineering",
     "number": "CS7654",
     "startDate": "2023-06-01",
@@ -99,6 +108,7 @@
     "imagePath":"images/SE.webp"
   },
   {
+    "_id": "CS6340",
     "name": "Internet of Things",
     "number": "CS6340",
     "startDate": "2023-06-15",

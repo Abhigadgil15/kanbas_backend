@@ -1,5 +1,6 @@
-[
+export default [
     {
+      "_id": "M1234",
       "name": "React Components",
       "description": "Learn the basics of React components and how they work.",
       "course": "CS1234",
@@ -25,6 +26,7 @@
       ]
     },
     {
+      "_id": "M1235",
       "name": "Advanced State Management",
       "description": "Diving into advanced state management techniques.",
       "course": "CS1234",
@@ -50,6 +52,7 @@
       ]
     },
     {
+      "_id": "M1236",
       "name": "React Hooks",
       "description": "Mastering React hooks for functional components.",
       "course": "CS1234",
@@ -75,6 +78,7 @@
       ]
     },
     {
+      "_id": "M5010",
       "name": "Functional Programming",
       "description": "Introduction to functional programming concepts.",
       "course": "CS5010",
@@ -100,6 +104,7 @@
       ]
     },
     {
+      "_id": "M5011",
       "name": "Object-Oriented Programming",
       "description": "Explore object-oriented programming principles.",
       "course": "CS5010",
@@ -125,6 +130,7 @@
       ]
     },
     {
+      "_id": "M5012",
       "name": "Imperative Programming",
       "description": "Delve into imperative programming concepts.",
       "course": "CS5010",
@@ -150,6 +156,7 @@
       ]
     },
     {
+      "_id": "M5600",
       "name": "HTML & CSS",
       "description": "Introduction to HTML and CSS for building web pages.",
       "course": "CS5600",
@@ -175,6 +182,7 @@
       ]
     },
     {
+      "_id": "M5601",
       "name": "JavaScript for Web Development",
       "description": "Learn JavaScript for adding interactivity to web pages.",
       "course": "CS5600",
@@ -200,6 +208,7 @@
       ]
     },
     {
+      "_id": "M5602",
       "name": "Backend Development",
       "description": "Introduction to backend development for the web.",
       "course": "CS5600",
@@ -225,6 +234,7 @@
       ]
     },
     {
+      "_id": "M6100",
       "name": "Cloud Computing Fundamentals",
       "description": "Understanding the basics of cloud computing.",
       "course": "CS6100",
@@ -250,6 +260,7 @@
       ]
     },
     {
+      "_id": "M6101",
       "name": "Cloud Platforms",
       "description": "Exploring different cloud platforms.",
       "course": "CS6100",
@@ -275,6 +286,7 @@
       ]
     },
     {
+      "_id": "M6102",
       "name": "Cloud Security",
       "description": "Understanding cloud security principles.",
       "course": "CS6100",
@@ -300,6 +312,7 @@
       ]
     },
     {
+        "_id": "M6700",
         "name": "Digital Systems",
         "description": "Understanding the fundamentals of digital systems.",
         "course": "CS6700",
@@ -325,6 +338,7 @@
         ]
       },
       {
+        "_id": "M6701",
         "name": "Microprocessor Architecture",
         "description": "Exploring the architecture and functioning of microprocessors.",
         "course": "CS6700",
@@ -350,6 +364,7 @@
         ]
       },
       {
+        "_id": "M6702",
         "name": "Computer Networks",
         "description": "Understanding the principles and protocols of computer networking.",
         "course": "CS6700",
@@ -375,6 +390,7 @@
         ]
       },
       {
+        "_id": "M6820",
         "name": "Introduction to Natural Language Processing",
         "description": "Understanding the fundamentals of NLP and its applications.",
         "course": "CS6821",
@@ -400,6 +416,7 @@
         ]
       },
       {
+        "_id": "M6821",
         "name": "Text Representation Techniques",
         "description": "Exploring methods for representing text data.",
         "course": "CS6821",
@@ -425,6 +442,7 @@
         ]
       },
       {
+        "_id": "M6822",
         "name": "Machine Learning in NLP",
         "description": "Applying machine learning techniques to natural language processing tasks.",
         "course": "CS6821",
@@ -450,6 +468,7 @@
         ]
       },
       {
+        "_id": "M6823",
         "name": "Advanced NLP Applications",
         "description": "Exploring advanced topics and applications in NLP.",
         "course": "CS6821",
@@ -475,6 +494,7 @@
         ]
       },
       {
+        "_id": "CS5800",
         "name": "Introduction to Algorithms",
         "description": "Understanding the fundamentals of algorithms and their analysis.",
         "course": "CS5800",
@@ -500,6 +520,7 @@
         ]
       },
       {
+        "_id": "M5801",
         "name": "Sorting Algorithms",
         "description": "Exploring various sorting techniques and their complexities.",
         "course": "CS5800",
@@ -525,6 +546,7 @@
         ]
       },
       {
+        "_id": "M5802",
         "name": "Data Structures",
         "description": "Understanding data structures and their role in algorithm design.",
         "course": "CS5800",
@@ -550,6 +572,7 @@
         ]
       },
       {
+        "_id": "M5803",
         "name": "Graph Algorithms",
         "description": "Exploring algorithms related to graph theory.",
         "course": "CS5800",
@@ -575,6 +598,7 @@
         ]
       },
       {
+        "_id": "M5804",
         "name": "Dynamic Programming",
         "description": "Understanding dynamic programming techniques for problem-solving.",
         "course": "CS5800",
@@ -600,6 +624,7 @@
         ]
       },
       {
+        "_id": "M6890",
         "name": "Introduction to Computer Vision",
         "description": "Understanding the fundamentals of computer vision and image processing.",
         "course": "CS6897",
@@ -625,6 +650,7 @@
         ]
       },
       {
+        "_id": "M6891",
         "name": "Image Processing Techniques",
         "description": "Exploring various techniques for image enhancement and manipulation.",
         "course": "CS6897",
@@ -650,6 +676,7 @@
         ]
       },
       {
+        "_id": "M6892",
         "name": "Feature Detection and Matching",
         "description": "Understanding methods for detecting and matching image features.",
         "course": "CS6897",
@@ -675,6 +702,7 @@
         ]
       },
       {
+        "_id": "M6893",
         "name": "Object Recognition",
         "description": "Exploring techniques for recognizing and classifying objects in images.",
         "course": "CS6897",
@@ -700,6 +728,7 @@
         ]
       },
       {
+        "_id": "M6894",
         "name": "Image Segmentation",
         "description": "Understanding techniques for segmenting images into meaningful parts.",
         "course": "CS6897",
@@ -725,6 +754,7 @@
         ]
       },
       {
+        "_id": "CS7654",
         "name": "Introduction to Software Engineering",
         "description": "Understanding the principles and practices of software engineering.",
         "course": "CS7654",
@@ -750,6 +780,7 @@
         ]
       },
       {
+        "_id": "M7651",
         "name": "Software Design",
         "description": "Exploring design principles and patterns for software architecture.",
         "course": "CS7654",
@@ -775,6 +806,7 @@
         ]
       },
       {
+        "_id": "M7652",
         "name": "Software Testing and Quality Assurance",
         "description": "Learning about testing methodologies and ensuring software quality.",
         "course": "CS7654",
@@ -800,6 +832,7 @@
         ]
       },
       {
+        "_id": "M7653",
         "name": "Project Management in Software Engineering",
         "description": "Exploring project management techniques specific to software projects.",
         "course": "CS7654",
@@ -826,6 +859,7 @@
       },
 
         {
+          "_id": "CS6340",
           "name": "IOT",
           "description": "Understanding the fundamentals of Internet of Things.",
           "course": "CS6340",
@@ -851,6 +885,7 @@
           ]
         },
         {
+          "_id": "M6341",
           "name": "IoT Devices and Sensors",
           "description": "Exploring various devices and sensors used in IoT.",
           "course": "CS6340",
@@ -876,6 +911,7 @@
           ]
         },
         {
+          "_id": "M6342",
           "name": "IoT Networking",
           "description": "Networking concepts and technologies for IoT.",
           "course": "CS6340",

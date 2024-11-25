@@ -1,5 +1,6 @@
-[
+export default [
     { 
+        "_id": "A001", 
         "title": "Build a Component", 
         "course": "CS1234", 
         "notAvailableUntil": "2024-08-15", 
@@ -10,6 +11,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A002", 
         "title": "State Management Project", 
         "course": "CS1234", 
         "notAvailableUntil": "2024-09-01", 
@@ -20,6 +22,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A003", 
         "title": "React Lifecycle Quiz", 
         "course": "CS1234", 
         "notAvailableUntil": "2024-09-20", 
@@ -31,6 +34,7 @@
     },
     
     { 
+        "_id": "A101", 
         "title": "Paradigms Comparison Essay", 
         "course": "CS5010", 
         "notAvailableUntil": "2024-08-25", 
@@ -41,6 +45,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A102", 
         "title": "Functional Programming Assignment", 
         "course": "CS5010", 
         "notAvailableUntil": "2024-09-05", 
@@ -51,6 +56,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A103", 
         "title": "Imperative Programming Project", 
         "course": "CS5010", 
         "notAvailableUntil": "2024-09-10", 
@@ -62,6 +68,7 @@
     },
   
     { 
+        "_id": "A201", 
         "title": "Responsive Web Design Task", 
         "course": "CS5600", 
         "notAvailableUntil": "2024-09-15", 
@@ -72,6 +79,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A202", 
         "title": "JavaScript CRUD Application", 
         "course": "CS5600", 
         "notAvailableUntil": "2024-09-25", 
@@ -82,6 +90,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A203", 
         "title": "Backend Integration Project", 
         "course": "CS5600", 
         "notAvailableUntil": "2024-10-01", 
@@ -93,6 +102,7 @@
     },
   
     { 
+        "_id": "A301", 
         "title": "Cloud Architecture Review", 
         "course": "CS6100", 
         "notAvailableUntil": "2024-09-05", 
@@ -103,6 +113,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A302", 
         "title": "Deploying a Cloud Service", 
         "course": "CS6100", 
         "notAvailableUntil": "2024-10-05", 
@@ -113,6 +124,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A303", 
         "title": "Case Study: Cloud Solutions", 
         "course": "CS6100", 
         "notAvailableUntil": "2024-10-10", 
@@ -124,6 +136,7 @@
     },
   
     { 
+        "_id": "A401", 
         "title": "System Design Project", 
         "course": "CS6700", 
         "notAvailableUntil": "2024-09-20", 
@@ -134,6 +147,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A402", 
         "title": "Circuit Analysis Assignment", 
         "course": "CS6700", 
         "notAvailableUntil": "2024-10-01", 
@@ -144,6 +158,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A403", 
         "title": "Programming Task in C", 
         "course": "CS6700", 
         "notAvailableUntil": "2024-10-15", 
@@ -155,6 +170,7 @@
     },
   
     { 
+        "_id": "A501", 
         "title": "Text Analysis Project", 
         "course": "CS6821", 
         "notAvailableUntil": "2024-10-05", 
@@ -165,6 +181,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A502", 
         "title": "Sentiment Analysis Report", 
         "course": "CS6821", 
         "notAvailableUntil": "2024-10-20", 
@@ -175,6 +192,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A503", 
         "title": "Machine Translation Evaluation", 
         "course": "CS6821", 
         "notAvailableUntil": "2024-10-10", 
@@ -186,6 +204,7 @@
     },
   
     { 
+        "_id": "A601", 
         "title": "Algorithm Design Challenge", 
         "course": "CS5800", 
         "notAvailableUntil": "2024-09-10", 
@@ -196,6 +215,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A602", 
         "title": "Data Structures Implementation", 
         "course": "CS5800", 
         "notAvailableUntil": "2024-09-15", 
@@ -206,6 +226,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A603", 
         "title": "Complexity Analysis Assignment", 
         "course": "CS5800", 
         "notAvailableUntil": "2024-09-25", 
@@ -217,6 +238,7 @@
     },
   
     { 
+        "_id": "A701", 
         "title": "Image Processing Techniques", 
         "course": "CS6897", 
         "notAvailableUntil": "2024-09-20", 
@@ -227,6 +249,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A702", 
         "title": "Feature Detection Project", 
         "course": "CS6897", 
         "notAvailableUntil": "2024-10-01", 
@@ -237,6 +260,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A703", 
         "title": "Machine Learning Applications", 
         "course": "CS6897", 
         "notAvailableUntil": "2024-10-15", 
@@ -248,6 +272,7 @@
     },
   
     { 
+        "_id": "A801", 
         "title": "Agile Methodology Report", 
         "course": "CS7654", 
         "notAvailableUntil": "2024-09-05", 
@@ -258,6 +283,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A802", 
         "title": "Software Development Life Cycle Project", 
         "course": "CS7654", 
         "notAvailableUntil": "2024-10-10", 
@@ -268,6 +294,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A803", 
         "title": "Project Management Case Study", 
         "course": "CS7654", 
         "notAvailableUntil": "2024-11-01", 
@@ -279,6 +306,7 @@
     },
   
     { 
+        "_id": "A901", 
         "title": "IoT Application Proposal", 
         "course": "CS6340", 
         "notAvailableUntil": "2024-09-15", 
@@ -289,6 +317,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A902", 
         "title": "IoT Sensor Data Analysis", 
         "course": "CS6340", 
         "notAvailableUntil": "2024-10-01", 
@@ -299,6 +328,7 @@
         "assignmentGroup": "assignments"
     },
     { 
+        "_id": "A903", 
         "title": "IoT Security Challenge", 
         "course": "CS6340", 
         "notAvailableUntil": "2024-10-15", 
