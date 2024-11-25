@@ -2,7 +2,7 @@ import express from "express";
 import session from "express-session";
 import cors from "cors";
 import "dotenv/config";
-
+import mongoose from "mongoose";
 import Hello from "./Hello.js";
 import Lab5 from "./Lab5/index.js";
 import UserRoutes from "./Kanbas/Users/routes.js";
@@ -10,14 +10,18 @@ import CourseRoutes from "./Kanbas/Courses/routes.js";
 import ModuleRoutes from "./Kanbas/Modules/routes.js";
 import AssignmentsRoutes from "./Kanbas/Assignments/routes.js";
 import EnrollmentsRoute from "./Kanbas/Enrollments/routes.js";
-
+const CONNECTION_STRING = process.env.MONGO_CONNECTION_STRING || "mongodb://127.0.0.1:27017/kanbas"
+mongoose.connect(CONNECTION_STRING);
+mongoose.connect(CONNECTION_STRING);
 const app = express();
+
 
 // CORS configuration
 app.use(cors({
   credentials: true,
   origin: process.env.NETLIFY_URL || "http://localhost:3000",
 }));
+
 
 // Session configuration
 const sessionOptions = {
