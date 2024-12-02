@@ -10,19 +10,16 @@ import CourseRoutes from "./Kanbas/Courses/routes.js";
 import ModuleRoutes from "./Kanbas/Modules/routes.js";
 import AssignmentsRoutes from "./Kanbas/Assignments/routes.js";
 import EnrollmentsRoute from "./Kanbas/Enrollments/routes.js";
-const CONNECTION_STRING = process.env.MONGO_CONNECTION_STRING || "mongodb://127.0.0.1:27017/kanbas"
+const CONNECTION_STRING =
+  process.env.MONGO_CONNECTION_STRING || "mongodb://127.0.0.1:27017/kanbas";
 mongoose.connect(CONNECTION_STRING);
 const app = express();
-
-
-// CORS configuration
-app.use(cors({
-  credentials: true,
-  origin: process.env.NETLIFY_URL || "http://localhost:3000",
-}));
-
-
-// Session configuration
+app.use(
+  cors({
+    credentials: true,
+    origin: process.env.NETLIFY_URL || "http://localhost:3000",
+  })
+);
 const sessionOptions = {
   secret: process.env.SESSION_SECRET || "kanbas",
   resave: false,
@@ -38,19 +35,12 @@ if (process.env.NODE_ENV !== "development") {
 }
 app.use(session(sessionOptions));
 
-// Middleware
 app.use(express.json());
-
-// Routes
+Hello(app);
+Lab5(app);
 UserRoutes(app);
 CourseRoutes(app);
-Lab5(app);
-Hello(app);
 ModuleRoutes(app);
-AssignmentsRoutes(app);
 EnrollmentsRoute(app);
-
-// Start the server
-app.listen(process.env.PORT || 4000, () => {
-  console.log(`Server is running on port ${process.env.PORT || 4000}`);
-});
+AssignmentsRoutes(app);
+app.listen(process.env.PORT || 4000);
