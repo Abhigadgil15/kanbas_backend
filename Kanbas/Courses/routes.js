@@ -56,19 +56,20 @@ export default function CourseRoutes(app) {
 
 
   //Assignments
-app.get("/api/courses/:courseId/assignments", (req, res) => {
+app.get("/api/courses/:courseId/assignments", async (req, res) => {
   const { courseId } = req.params;
-  const assignments = assignmentsdao.findAssignmentsForCourse(courseId);
+  const assignments = await assignmentsdao.findAssignmentsForCourse(courseId);
   res.json(assignments);
 });
 
-app.post("/api/courses/:courseId/assignments", (req, res) => {
+
+app.post("/api/courses/:courseId/assignments", async (req, res) => {
   const { courseId } = req.params;
   const assignment = {
     ...req.body,
     course: courseId,
   };
-  const newAssignment = assignmentsdao.createAssignment(assignment);
+  const newAssignment = await assignmentsdao.createAssignment(assignment);
   res.send(newAssignment);
 });
 
